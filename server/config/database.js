@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize('AIRLINE_SYSTEM', 'admin', 'admin202', {
-    host: "mysql202.cyykoabfoj9g.us-east-1.rds.amazonaws.com",
-    port: "3306",
+const db = new Sequelize('DB_NAME', 'DB_USERNAME', 'DB_PASSWORD', {
+    host: "HOSTNAME",
+    port: "PORT",
     dialect: "mysql",
     define: {
         timestamps: false
